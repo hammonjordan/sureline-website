@@ -36,3 +36,41 @@ if (hamburger && sliderNav && mainDiv) {
 } else {
     console.error("Couldn't find components.");
 }
+
+
+// Select elements
+const sns01: HTMLElement | null = document.getElementById('sns01');
+const sns02: HTMLElement | null = document.getElementById('sns02');
+const sliderNavbar: HTMLElement | null = document.getElementById('sliderNavbar');
+
+// Check if elements exist before adding event listeners
+if (sns01 && sns02 && sliderNavbar) {
+    // Add event listener for hover on sns01
+    sns01.addEventListener('mouseenter', () => {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = '-70px';
+            sliderNavbar.style.height = '770px';
+        }
+    });
+
+    sns01.addEventListener('mouseleave', () => {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = 'var(--header-height)';
+            sliderNavbar.style.height = '490px';
+        }
+    });
+
+    sns02.addEventListener('mouseenter', () => {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = '-70px';
+            sliderNavbar.style.height = '770px';
+        }
+    });
+
+    sns02.addEventListener('mouseleave', () => {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = 'var(--header-height)';
+            sliderNavbar.style.height = '490px';
+        }
+    });
+}

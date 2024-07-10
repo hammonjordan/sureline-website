@@ -35,3 +35,35 @@ if (hamburger && sliderNav && mainDiv) {
 else {
     console.error("Couldn't find components.");
 }
+// Select elements
+var sns01 = document.getElementById('sns01');
+var sns02 = document.getElementById('sns02');
+var sliderNavbar = document.getElementById('sliderNavbar');
+// Check if elements exist before adding event listeners
+if (sns01 && sns02 && sliderNavbar) {
+    // Add event listener for hover on sns01
+    sns01.addEventListener('mouseenter', function () {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = '-70px';
+            sliderNavbar.style.height = '770px';
+        }
+    });
+    sns01.addEventListener('mouseleave', function () {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = 'var(--header-height)';
+            sliderNavbar.style.height = '490px';
+        }
+    });
+    sns02.addEventListener('mouseenter', function () {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = '-70px';
+            sliderNavbar.style.height = '770px';
+        }
+    });
+    sns02.addEventListener('mouseleave', function () {
+        if (sliderNavbar.style) {
+            sliderNavbar.style.top = 'var(--header-height)';
+            sliderNavbar.style.height = '490px';
+        }
+    });
+}
