@@ -1,0 +1,30 @@
+#APaboutSectionContent {
+    position: relative;
+    width: var(--section-width);
+    min-height: var(--main-section-height);
+    top: var(--header-height);
+    border-radius: var(--border-radius03);
+    background-color: var(--section-background-color);
+    color: var(--text-white);
+    margin-top: var(--scrollbar-dimension);
+}
+
+#APaboutTextContainer {
+    width: 50vw;
+    padding: var(--about-margin);
+    line-height: var(--double-line-height);
+}
+
+#aboutFullLogo {
+    height: 108px;
+    margin-bottom: var(--about-margin);
+}
+
+#aboutusSectionLink {
+    margin-bottom: calc(var(--about-margin) / 2);
+}
+
+#horizontalSpan {
+    width: 100%;
+    margin: var(--scrollbar-dimension)
+}

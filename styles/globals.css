@@ -1,0 +1,42 @@
+:root {
+    --header-height: 70px;
+    --slider-height: calc(100vh - var(--header-height));
+    --main-section-height: calc(100vh - (var(--scrollbar-dimension) * 2) - var(--header-height));
+    --fit-section-height: fit-content;
+
+    --section-width: calc(100vw - (var(--scrollbar-dimension) * 3));
+
+    --about-margin: calc(var(--scrollbar-dimension) * 4);
+    --double-line-height: 200%;
+
+    --scrollbar-dimension: 8px;
+    --border-radius01: 2px;
+    --border-radius02: 4px;
+    --border-radius03: 8px;
+
+    --header-background-color: #333;
+    --section-background-color: #252e25;
+    --section-background-color-opac: #252e2580;
+    --body-background-color: #555;
+    --section-background-color-hover: var(--header-background-color);
+
+    --text-white: #ffffff;
+
+    --font-size01: 16px;
+    --font-size02: 18px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.fdr {
+    flex-direction: row;
+}

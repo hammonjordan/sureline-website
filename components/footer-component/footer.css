@@ -1,0 +1,46 @@
+#footerNavbar {
+    position: relative;
+    margin-top: var(--scrollbar-dimension);
+    bottom: calc(var(--header-height) * -1);
+    padding: var(--scrollbar-dimension);
+    min-height: var(--fit-content-height);
+    width: calc(100vw - var(--scrollbar-dimension));
+    background-color: var(--header-background-color);
+    color: var(--text-white);
+    border-top: 1px solid var(--section-background-color);
+}
+
+#ffullLogosrc, #fdcLogosrc {
+    height: 74px;
+    cursor: pointer;
+}
+
+#ffullLogosrc {
+    display: block;
+}
+
+#fdcLogosrc {
+    display: none;
+}
+
+#fns01, #fns02, #fns03, #fns04 {
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+}
+
+.tab-headings {
+    margin: var(--scrollbar-dimension);
+    font-size: var(--font-size02);
+}
+
+.footer-nav-link {
+    margin: var(--scrollbar-dimension);
+    color: var(--text-white);
+    cursor: pointer;
+}
+
+.footer-nav-ul li a {
+    color: var(--text-white);
+    font-size: var(--font-size01);
+}

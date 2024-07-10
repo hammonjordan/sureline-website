@@ -1,0 +1,19 @@
+#TPtestimonialsSectionContent {
+    position: relative;
+    width: var(--section-width);
+    min-height: var(--main-section-height);
+    border-radius: var(--border-radius03);
+    background-color: var(--section-background-color);
+    color: var(--text-white);
+    margin-top: var(--scrollbar-dimension);
+}
+
+#TPtestimonialsTextContainer {
+    width: 50vw;
+    padding: var(--about-margin);
+    line-height: var(--double-line-height);
+}
+
+#testimonialsSectionLink {
+    margin-bottom: calc(var(--about-margin) / 2);
+}

@@ -1,0 +1,120 @@
+#homeContent {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: var(--header-height);
+    overflow: hidden;
+}
+
+#heroSection {
+    overflow: hidden;
+}
+
+#heroSectionContent {
+    position: relative;
+    width: var(--section-width);
+    height: var(--main-section-height);
+    border-radius: var(--border-radius03);
+    background-color: var(--section-background-color);
+    color: var(--text-white);
+    margin-top: var(--scrollbar-dimension);
+}
+
+#aboutSectionContent {
+    position: relative;
+    width: var(--section-width);
+    height: var(--fit-section-height);
+    border-radius: var(--border-radius03);
+    background-color: var(--section-background-color);
+    color: var(--text-white);
+    margin-top: var(--scrollbar-dimension);
+}
+
+#aboutTextContainer {
+    width: 50vw;
+    padding: var(--about-margin);
+    line-height: var(--double-line-height);
+}
+
+#aboutFullLogo {
+    height: 108px;
+    margin-bottom: var(--about-margin);
+}
+
+#aboutusSectionLink {
+    margin-bottom: calc(var(--about-margin) / 2);
+}
+
+#horizontalSpan {
+    width: 100%;
+    margin: var(--scrollbar-dimension);
+}
+
+#testimonialsSectionContent {
+    position: relative;
+    width: var(--section-width);
+    height: var(--fit-section-height);
+    border-radius: var(--border-radius03);
+    background-color: var(--section-background-color);
+    color: var(--text-white);
+    margin-top: var(--scrollbar-dimension);
+}
+
+#testimonialsTextContainer {
+    padding: var(--about-margin);
+    line-height: var(--double-line-height);
+}
+
+#instagramSectionContent {
+    position: relative;
+    width: var(--section-width);
+    height: var(--fit-section-height);
+    border-radius: var(--border-radius03);
+    background-color: var(--section-background-color);
+    color: var(--text-white);
+    margin-top: var(--scrollbar-dimension);
+}
+
+#instagramTextContainer {
+    padding: var(--about-margin);
+    line-height: var(--double-line-height);
+}
+
+#video-container {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius03);
+    overflow: hidden;
+    position: absolute;
+}
+
+#heroVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video always covers the container */
+    border-radius: var(--border-radius03);
+}
+
+#heroOverlay {
+    z-index: 998;
+    position: absolute;
+    background-color: var(--section-background-color-opac);
+    padding: 32px;
+    line-height: 300%;
+    border-radius: var(--border-radius03);
+    transition: all 250ms ease-in-out;
+}
+
+#heroOverlay:hover {
+    background-color: var(--section-background-color);
+}
+
+#heroOverlay h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#heroOverlay h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
